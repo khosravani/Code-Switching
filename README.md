@@ -1,6 +1,7 @@
 
 # German-English Code-Switching speech dataset
-We develop a corpus for English code-switching in German, a 34h transcribed speech corpus of read Wikipedia articles which can be used as a benchmark for research on code-switching.  The articles are read by a large and diverse group of people. The code-switching speech segments are extracted from the German **Spoken Wikipedia Corpus** (SWC), perhaps the largest corpus of freely-available aligned speech for German.  It contains 1014 spoken articles read by more than 350 identified speakers comprising 386h of speech. 
+We develop a corpus for English code-switching in German, a 34h transcribed speech corpus of read Wikipedia articles which can be used as a benchmark for research on code-switching.  The articles are read by a large and diverse group of people. The code-switching speech segments are extracted from the German **Spoken Wikipedia Corpus** (SWC), perhaps the largest corpus of freely-available aligned speech for German.  It contains 1014 spoken articles read by more than 350 identified speakers comprising 386h of speech. This corpus is available in http://nats.gitlab.io/swc.
+
 In SWC, since most of the articles are long, the recordings submitted by the volunteers are also long (∼54min) on average.  These audio files are manually annotated at word-level and also segment level in XML format.  We use a language identification tool to detect code-switching in the transcription of the audio files with consecutive indices. To extract intra-sentential code-switching segments, we ensure that the detected code-switching is preceded and followed by German words or sentences. The final set consists of 34h of speech data and 12,437 code-switching segments. 
 
 ## Citation
@@ -23,3 +24,4 @@ In SWC, since most of the articles are long, the recordings submitted by the vol
   year={2018}
 }
 ```
+
